@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./index.css">
+    <title>G-demo</title>
+</head>
+<body>
+    <script src="./index.js" type="module"></script>
+
+    <header class="head">
+        <head-logo
+            title="G-demo"
+        />
+    </header>
+    <article class="content">
+        <aside class="left">
+            <graphic-pannel />
+        </aside>
+        <main class="main">
+            <draw-board 
+                xmax="120"
+                ymax="80"
+                unit="10"
+                scale="1"
+                line="1"
+                border="1"
+            />
+        </main>
+        <aside class="right">
+            <canvas-pannel />
+        </aside>
+    </article>
+</body>
+</html>
